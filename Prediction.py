@@ -35,3 +35,8 @@ delivery_times = {category: [predict_delivery_time(category, method) for method 
 df_delivery = pd.DataFrame(delivery_times, index=["Standard", "Express", "Same-day"])
 
 st.line_chart(df_delivery)
+
+
+
+st.markdown("**Created by [Dhruvi Mevada](https://github.com/DhruviMevada/Delivery-Time-Prediction/edit/main/Prediction.py)**")
+
